@@ -1,0 +1,76 @@
+#plan{
+    background-color: #F7F9FF;
+    width: 100%;
+    padding: 16px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.plan-child{
+    height: 48px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.plan-child img{
+    height: 100%;
+}
+.fonts{
+    height: 100%;
+    padding: 4px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#plan-header{
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 18.52px;
+    text-align: left;
+    color: #1F2E55;
+}
+#plan-detail{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.52px;
+    text-align: left;
+    color: #717FA6;
+}
+#change-font{
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17.2px;
+    text-align: left;
+    color: #382AE1;
+    text-decoration: underline;
+}
+#change-font:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #766CF1;
+}
+
+@media only screen and (min-width: 500px){
+    #plan{
+        padding: 25px 24px;
+        margin-bottom: 32px;
+    }
+    .fonts{
+        padding: 0;
+    }
+    #plan-header{
+        font-size: 16px;
+        line-height: 21.17px;
+    }
+    #plan-detail{
+        font-size: 16px;
+        line-height: 21.17px;
+    }
+    #change-font{
+        font-size: 14px;
+        line-height: 18.52px;
+    }
+}

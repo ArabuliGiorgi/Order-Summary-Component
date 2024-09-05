@@ -10,7 +10,23 @@ h1, p{
 }
 body{
   min-height: 100vh;
+  background-image: url(/public/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 629.27px 194px;
+  background-position: 50% 0;
+  background-color: #E0E8FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 24px;
 }
 #root{
   width: 100%;
+  max-width: 450px;
+}
+
+@media only screen and (min-width: 600px){
+  body{
+    background-size: 1440px 437px;
+  }
 }
